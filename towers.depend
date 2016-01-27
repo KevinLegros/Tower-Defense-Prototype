@@ -1,0 +1,403 @@
+# depslib dependency file v1.0
+1344945772 source:c:\users\klegros\documents\cppproj\title\towers\game.cpp
+	"Game.hpp"
+
+1344942934 c:\users\klegros\documents\cppproj\title\towers\game.hpp
+	<SDL.h>
+	"SDL_ttf.h"
+	"EventHandler.hpp"
+	"SpriteLoader.hpp"
+	"GameStateManager.hpp"
+
+1343909682 source:c:\users\klegros\documents\cppproj\title\towers\spriteloader.cpp
+	"SpriteLoader.hpp"
+
+1343813099 c:\users\klegros\documents\cppproj\title\towers\spriteloader.hpp
+	<SDL.h>
+	<SDL_image.h>
+
+1343976458 c:\users\klegros\documents\cppproj\title\towers\eventhandler.hpp
+	<SDL.h>
+	"Globals.hpp"
+
+1343914921 source:c:\users\klegros\documents\cppproj\title\towers\eventhandler.cpp
+	"EventHandler.hpp"
+
+1344502816 c:\users\klegros\documents\cppproj\title\towers\gamestatemanager.hpp
+	"GameState.hpp"
+
+1343988161 c:\users\klegros\documents\cppproj\title\towers\gamestate.hpp
+	"EventHandler.hpp"
+	"variables.hpp"
+
+1343814404 source:c:\users\klegros\documents\cppproj\title\towers\gamestate.cpp
+	"GameState.hpp"
+
+1344502941 source:c:\users\klegros\documents\cppproj\title\towers\gamestatemanager.cpp
+	"GameStateManager.hpp"
+	"GameStateIntro.hpp"
+	"GameStateMainMenu.hpp"
+	"GameStatePlay.hpp"
+	"GameStateBuilder.hpp"
+
+1343993255 source:c:\users\klegros\documents\cppproj\title\towers\gamestateintro.cpp
+	"GameStateIntro.hpp"
+	"GameStateManager.hpp"
+
+1343993154 c:\users\klegros\documents\cppproj\title\towers\gamestateintro.hpp
+	"GameState.hpp"
+	"SpriteLoader.hpp"
+	"variables.hpp"
+
+1353507615 c:\users\klegros\documents\cppproj\title\towers\gamestateplay.hpp
+	<string>
+	<iostream>
+	"GameState.hpp"
+	"MapArea.hpp"
+	"Entity.hpp"
+	"Player.hpp"
+	"Enemy.hpp"
+	"SpriteLoader.hpp"
+
+1353513033 source:c:\users\klegros\documents\cppproj\title\towers\gamestateplay.cpp
+	"GameStatePlay.hpp"
+	"Game.hpp"
+
+1352978719 source:c:\users\klegros\documents\cppproj\title\towers\gamestatemainmenu.cpp
+	"GameStateMainMenu.hpp"
+	"GameStateManager.hpp"
+
+1348490842 c:\users\klegros\documents\cppproj\title\towers\gamestatemainmenu.hpp
+	<vector>
+	"GameState.hpp"
+	"SpriteLoader.hpp"
+	"MenuButton.hpp"
+
+1348490927 c:\users\klegros\documents\cppproj\title\towers\menubutton.hpp
+	"EventHandler.hpp"
+	"SpriteLoader.hpp"
+
+1348490942 source:c:\users\klegros\documents\cppproj\title\towers\menubutton.cpp
+	"MenuButton.hpp"
+	"Game.hpp"
+
+1343906395 source:c:\users\klegros\documents\cppproj\title\towers\main.cpp
+	"Game.hpp"
+
+1343919056 c:\users\klegros\documents\cppproj\title\towers\keys.hpp
+
+1343918838 source:c:\users\klegros\documents\cppproj\title\towers\keys.cpp
+	"Keys.hpp"
+
+1344328301 source:c:\users\klegros\documents\cppproj\title\towers\camerahandler.cpp
+	"CameraHandler.hpp"
+
+1344328335 c:\users\klegros\documents\cppproj\title\towers\camerahandler.hpp
+	<SDL.h>
+	"MapArea.hpp"
+	"variables.hpp"
+
+1344503128 c:\users\klegros\documents\cppproj\title\towers\variables.hpp
+
+1344943560 c:\users\klegros\documents\cppproj\title\towers\globals.hpp
+	"SDL_ttf.h"
+
+1343977152 source:c:\users\klegros\documents\cppproj\title\towers\animationhandler.cpp
+	"AnimationHandler.hpp"
+
+1343976949 c:\users\klegros\documents\cppproj\title\towers\animationhandler.hpp
+	<SDL.h>
+
+1353512953 source:c:\users\klegros\documents\cppproj\title\towers\entity.cpp
+	"Entity.hpp"
+
+1344943566 source:c:\users\klegros\documents\cppproj\title\towers\globals.cpp
+	"Globals.hpp"
+
+1353495863 c:\users\klegros\documents\cppproj\title\towers\entity.hpp
+	<vector>
+	"MapArea.hpp"
+	"AnimationHandler.hpp"
+	"CameraHandler.hpp"
+	"SpriteLoader.hpp"
+	"Globals.hpp"
+	"Tile.hpp"
+
+1343985785 source:c:\users\klegros\documents\cppproj\title\towers\collisionhandler.cpp
+	"Entity.hpp"
+
+1353080288 source:c:\users\klegros\documents\cppproj\title\towers\tile.cpp
+	"Tile.hpp"
+
+1353080282 c:\users\klegros\documents\cppproj\title\towers\tile.hpp
+	"variables.hpp"
+
+1353080434 source:c:\users\klegros\documents\cppproj\title\towers\tilemap.cpp
+	"TileMap.hpp"
+
+1344418881 c:\users\klegros\documents\cppproj\title\towers\tilemap.hpp
+	<SDL.h>
+	<vector>
+	"Tile.hpp"
+	"SpriteLoader.hpp"
+
+1353508045 source:c:\users\klegros\documents\cppproj\title\towers\maparea.cpp
+	"MapArea.hpp"
+
+1353508010 c:\users\klegros\documents\cppproj\title\towers\maparea.hpp
+	"TileMap.hpp"
+
+1344260234 c:\users\klegros\documents\cppproj\title\towers\player.hpp
+	"Entity.hpp"
+
+1353060542 source:c:\users\klegros\documents\cppproj\title\towers\player.cpp
+	"Player.hpp"
+
+1353422626 c:\users\klegros\documents\cppproj\title\towers\enemy.hpp
+	"Entity.hpp"
+
+1353422623 source:c:\users\klegros\documents\cppproj\title\towers\enemy.cpp
+	"Enemy.hpp"
+
+1353060547 source:c:\users\klegros\documents\cppproj\title\towers\tower.cpp
+	"Tower.hpp"
+
+1344431436 c:\users\klegros\documents\cppproj\title\towers\tower.hpp
+	"Entity.hpp"
+
+1344434445 source:c:\users\klegros\documents\cppproj\title\towers\astar.cpp
+	"Astar.hpp"
+
+1344434411 c:\users\klegros\documents\cppproj\title\towers\astar.hpp
+	<map>
+	<list>
+	<utility>
+	<math.h>
+
+1353412713 source:c:\users\klegros\documents\cppproj\title\towers\gamestatebuilder.cpp
+	"GameStateBuilder.hpp"
+
+1348492856 c:\users\klegros\documents\cppproj\title\towers\gamestatebuilder.hpp
+	<vector>
+	"GameState.hpp"
+	"BuilderButton.hpp"
+	"DialogBox.hpp"
+	"MapArea.hpp"
+	"Entity.hpp"
+	"Player.hpp"
+	"SpriteLoader.hpp"
+
+1352978170 source:c:\users\klegros\documents\cppproj\title\towers\builderbutton.cpp
+	"BuilderButton.hpp"
+	"Game.hpp"
+
+1348491264 c:\users\klegros\documents\cppproj\title\towers\builderbutton.hpp
+	"EventHandler.hpp"
+	"SpriteLoader.hpp"
+
+1343980752 source:c:\users\menotyou\documents\cpp\towers\animationhandler.cpp
+	"AnimationHandler.hpp"
+
+1343980549 c:\users\menotyou\documents\cpp\towers\animationhandler.hpp
+	<SDL.h>
+
+1344438045 source:c:\users\menotyou\documents\cpp\towers\astar.cpp
+	"Astar.hpp"
+
+1344438011 c:\users\menotyou\documents\cpp\towers\astar.hpp
+	<map>
+	<list>
+	<utility>
+	<math.h>
+
+1344891824 source:c:\users\menotyou\documents\cpp\towers\builderbutton.cpp
+	"BuilderButton.hpp"
+	"Game.hpp"
+
+1344891875 c:\users\menotyou\documents\cpp\towers\builderbutton.hpp
+	"EventHandler.hpp"
+	"SpriteLoader.hpp"
+
+1343980058 c:\users\menotyou\documents\cpp\towers\eventhandler.hpp
+	<SDL.h>
+	"Globals.hpp"
+
+1344262043 c:\users\menotyou\documents\cpp\towers\globals.hpp
+
+1343816699 c:\users\menotyou\documents\cpp\towers\spriteloader.hpp
+	<SDL.h>
+	<SDL_image.h>
+
+1343987458 c:\users\menotyou\documents\cpp\towers\game.hpp
+	<SDL.h>
+	"EventHandler.hpp"
+	"SpriteLoader.hpp"
+	"GameStateManager.hpp"
+
+1344506416 c:\users\menotyou\documents\cpp\towers\gamestatemanager.hpp
+	"GameState.hpp"
+
+1343991761 c:\users\menotyou\documents\cpp\towers\gamestate.hpp
+	"EventHandler.hpp"
+	"variables.hpp"
+
+1344506728 c:\users\menotyou\documents\cpp\towers\variables.hpp
+
+1344331901 source:c:\users\menotyou\documents\cpp\towers\camerahandler.cpp
+	"CameraHandler.hpp"
+
+1344331935 c:\users\menotyou\documents\cpp\towers\camerahandler.hpp
+	<SDL.h>
+	"MapArea.hpp"
+	"variables.hpp"
+
+1344422474 c:\users\menotyou\documents\cpp\towers\maparea.hpp
+	"TileMap.hpp"
+
+1344422481 c:\users\menotyou\documents\cpp\towers\tilemap.hpp
+	<SDL.h>
+	<vector>
+	"Tile.hpp"
+	"SpriteLoader.hpp"
+
+1344423527 c:\users\menotyou\documents\cpp\towers\tile.hpp
+	"variables.hpp"
+
+1343989385 source:c:\users\menotyou\documents\cpp\towers\collisionhandler.cpp
+	"Entity.hpp"
+
+1344434834 c:\users\menotyou\documents\cpp\towers\entity.hpp
+	<vector>
+	"MapArea.hpp"
+	"AnimationHandler.hpp"
+	"CameraHandler.hpp"
+	"SpriteLoader.hpp"
+	"Globals.hpp"
+
+1344435604 source:c:\users\menotyou\documents\cpp\towers\enemy.cpp
+	"Enemy.hpp"
+
+1344432680 c:\users\menotyou\documents\cpp\towers\enemy.hpp
+	"Entity.hpp"
+
+1344435844 source:c:\users\menotyou\documents\cpp\towers\entity.cpp
+	"Entity.hpp"
+
+1343817866 source:c:\users\menotyou\documents\cpp\towers\eventhandler.cpp
+	"EventHandler.hpp"
+
+1344422455 source:c:\users\menotyou\documents\cpp\towers\game.cpp
+	"Game.hpp"
+
+1343818004 source:c:\users\menotyou\documents\cpp\towers\gamestate.cpp
+	"GameState.hpp"
+
+1344868264 source:c:\users\menotyou\documents\cpp\towers\gamestatebuilder.cpp
+	"GameStateBuilder.hpp"
+
+1344892159 c:\users\menotyou\documents\cpp\towers\gamestatebuilder.hpp
+	"GameState.hpp"
+	"BuilderButton.hpp"
+	"MapArea.hpp"
+	"Entity.hpp"
+	"Player.hpp"
+	"SpriteLoader.hpp"
+
+1344263834 c:\users\menotyou\documents\cpp\towers\player.hpp
+	"Entity.hpp"
+
+1343996855 source:c:\users\menotyou\documents\cpp\towers\gamestateintro.cpp
+	"GameStateIntro.hpp"
+	"GameStateManager.hpp"
+
+1343996754 c:\users\menotyou\documents\cpp\towers\gamestateintro.hpp
+	"GameState.hpp"
+	"SpriteLoader.hpp"
+	"variables.hpp"
+
+1344506461 source:c:\users\menotyou\documents\cpp\towers\gamestatemainmenu.cpp
+	"GameStateMainMenu.hpp"
+	"GameStateManager.hpp"
+
+1344506114 c:\users\menotyou\documents\cpp\towers\gamestatemainmenu.hpp
+	"GameState.hpp"
+	"SpriteLoader.hpp"
+	"MenuButton.hpp"
+
+1344507600 c:\users\menotyou\documents\cpp\towers\menubutton.hpp
+	"EventHandler.hpp"
+	"SpriteLoader.hpp"
+
+1344506541 source:c:\users\menotyou\documents\cpp\towers\gamestatemanager.cpp
+	"GameStateManager.hpp"
+	"GameStateIntro.hpp"
+	"GameStateMainMenu.hpp"
+	"GameStatePlay.hpp"
+	"GameStateBuilder.hpp"
+
+1344507353 c:\users\menotyou\documents\cpp\towers\gamestateplay.hpp
+	"GameState.hpp"
+	"MapArea.hpp"
+	"Entity.hpp"
+	"Player.hpp"
+	"Enemy.hpp"
+	"SpriteLoader.hpp"
+
+1344435889 source:c:\users\menotyou\documents\cpp\towers\gamestateplay.cpp
+	"GameStatePlay.hpp"
+
+1344262028 source:c:\users\menotyou\documents\cpp\towers\globals.cpp
+	"Globals.hpp"
+
+1344422493 source:c:\users\menotyou\documents\cpp\towers\maparea.cpp
+	"MapArea.hpp"
+
+1344507679 source:c:\users\menotyou\documents\cpp\towers\menubutton.cpp
+	"MenuButton.hpp"
+	"Game.hpp"
+
+1344435615 source:c:\users\menotyou\documents\cpp\towers\player.cpp
+	"Player.hpp"
+
+1343913282 source:c:\users\menotyou\documents\cpp\towers\spriteloader.cpp
+	"SpriteLoader.hpp"
+
+1344423532 source:c:\users\menotyou\documents\cpp\towers\tile.cpp
+	"Tile.hpp"
+
+1344423717 source:c:\users\menotyou\documents\cpp\towers\tilemap.cpp
+	"TileMap.hpp"
+
+1344434760 source:c:\users\menotyou\documents\cpp\towers\tower.cpp
+	"Tower.hpp"
+
+1344435036 c:\users\menotyou\documents\cpp\towers\tower.hpp
+	"Entity.hpp"
+
+1343909995 source:c:\users\menotyou\documents\cpp\towers\main.cpp
+	"Game.hpp"
+
+1348492989 c:\users\klegros\documents\cppproj\title\towers\dialogbox.hpp
+	<stdio.h>
+	<cstdlib>
+	<iostream>
+	<string.h>
+	<fstream>
+	<dirent.h>
+	<vector>
+	"EventHandler.hpp"
+	"SpriteLoader.hpp"
+	"variables.hpp"
+	"DialogButton.hpp"
+
+1348566456 source:c:\users\klegros\documents\cppproj\title\towers\dialogbox.cpp
+	"DialogBox.hpp"
+
+1348493204 c:\users\klegros\documents\cppproj\title\towers\dialogbutton.hpp
+	"EventHandler.hpp"
+	"SpriteLoader.hpp"
+
+1348492727 source:c:\users\klegros\documents\cppproj\title\towers\dialogbutton.cpp
+	"DialogButton.hpp"
+	"Game.hpp"
+

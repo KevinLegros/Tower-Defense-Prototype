@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="towers" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\towers" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\Debug" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDLmain -lSDL_image -lSDL_TTF -lSDL" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\towers" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="AnimationHandler.cpp" />
+		<Unit filename="AnimationHandler.hpp" />
+		<Unit filename="BuilderButton.cpp" />
+		<Unit filename="BuilderButton.hpp" />
+		<Unit filename="CameraHandler.cpp" />
+		<Unit filename="CameraHandler.hpp" />
+		<Unit filename="CollisionHandler.cpp" />
+		<Unit filename="DialogBox.cpp" />
+		<Unit filename="DialogBox.hpp" />
+		<Unit filename="DialogButton.cpp" />
+		<Unit filename="DialogButton.hpp" />
+		<Unit filename="Enemy.cpp" />
+		<Unit filename="Enemy.hpp" />
+		<Unit filename="Entity.cpp" />
+		<Unit filename="Entity.hpp" />
+		<Unit filename="EventHandler.cpp" />
+		<Unit filename="EventHandler.hpp" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.hpp" />
+		<Unit filename="GameState.cpp" />
+		<Unit filename="GameState.hpp" />
+		<Unit filename="GameStateBuilder.cpp" />
+		<Unit filename="GameStateBuilder.hpp" />
+		<Unit filename="GameStateIntro.cpp" />
+		<Unit filename="GameStateIntro.hpp" />
+		<Unit filename="GameStateMainMenu.cpp" />
+		<Unit filename="GameStateMainMenu.hpp" />
+		<Unit filename="GameStateManager.cpp" />
+		<Unit filename="GameStateManager.hpp" />
+		<Unit filename="GameStatePlay.cpp" />
+		<Unit filename="GameStatePlay.hpp" />
+		<Unit filename="Globals.cpp" />
+		<Unit filename="Globals.hpp" />
+		<Unit filename="MapArea.cpp" />
+		<Unit filename="MapArea.hpp" />
+		<Unit filename="MenuButton.cpp" />
+		<Unit filename="MenuButton.hpp" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.hpp" />
+		<Unit filename="SpriteLoader.cpp" />
+		<Unit filename="SpriteLoader.hpp" />
+		<Unit filename="Tile.cpp" />
+		<Unit filename="Tile.hpp" />
+		<Unit filename="TileMap.cpp" />
+		<Unit filename="TileMap.hpp" />
+		<Unit filename="Tower.cpp" />
+		<Unit filename="Tower.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="variables.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
